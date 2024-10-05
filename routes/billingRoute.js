@@ -1,7 +1,7 @@
 // routes/billingRoutes.js
 
 const express = require('express');
-const { calculateBills } = require('../utils/dummyData.');
+const { calculateBills } = require('.../utils/dummyData');
 const router = express.Router();
 
 // Route to get all tenants' billing information

@@ -4,20 +4,20 @@
 const tenants = [
     {
       id: 1,
-      name: "John Doe",
-      email: "john@example.com",
+      name: "Azadzi George",
+      email: "azadzigeorge@example.com",
       usage: 100, // in kWh
     },
     {
       id: 2,
-      name: "Jane Smith",
-      email: "jane@example.com",
+      name: "Dennis oladele",
+      email: "jdennis@example.com",
       usage: 150, // in kWh
     },
     {
       id: 3,
-      name: "David Brown",
-      email: "david@example.com",
+      name: "Ekow Malm",
+      email: "ekowmalmd@example.com",
       usage: 120, // in kWh
     },
   ];
@@ -35,7 +35,7 @@ const tenants = [
       name: tenant.name,
       email: tenant.email,
       usage: tenant.usage,
-      bill: (tenant.usage * meterData.billingRate).toFixed(2), // Bill in dollars
+      bill: (tenant.usage * meterData.billingRate).toFixed(2), // Bill in ghana cedis
     }));
   };
   

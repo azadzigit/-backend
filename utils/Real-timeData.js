@@ -1,6 +1,6 @@
-// utils/dummyData.js
+// utils/Real-time.js
 
-// Dummy tenant data
+// Real-time tenant data
 const tenants = [
     {
       id: 1,
@@ -22,7 +22,7 @@ const tenants = [
     },
   ];
   
-  // Dummy smart meter data
+  // Real-time smart meter data
   const meterData = {
     totalUsage: 370, // in kWh
     billingRate: 0.15, // Price per kWh in dollars
